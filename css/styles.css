@@ -30,7 +30,7 @@ font-style: normal;
 
 /* ---------------------HEADER-------------------- */
 
-.header-logo .link {
+.header-logo {
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -40,7 +40,7 @@ font-style: normal;
     text-transform: uppercase;
 }
 .logo-span{
-    color: var(--color-secondary);
+    color: #2E2F42;
     font-family: 'Raleway'; 
     font-weight: 800;
     font-size: 18px;
@@ -54,7 +54,7 @@ font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.nav-link :hover :focus {
+.nav-link:hover, .nav-link:focus {
 color: #404bbf
 }
 
@@ -62,7 +62,7 @@ color: #404bbf
 .adr-link {
     color: var(--color-primary)
 }
-.adr-link :hover :focus {
+.adr-link:hover, .adr-link:focus {
     color: #404BBF;
 }
 
@@ -89,7 +89,7 @@ background-color: var(--color-secondary);
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.solution-btn:hover :focus {
+.solution-btn:hover, .solution-btn:focus {
     background-color: #404BBF;
     
 }
@@ -141,7 +141,7 @@ background-color: var(--color-secondary);
 .footer {
     background-color: var(--color-secondary);
 }
-.footer-logo .link {
+.footer-logo {
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -169,14 +169,14 @@ background-color: var(--color-secondary);
 .filter-btn {
     background-color:#F4F4FD;
     color: #4D5AE5;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.filter-btn:hover :focus{
+.filter-btn:hover, .filter-btn:focus{
     background-color:#404BBF;
     color: #FFFFFF;
 }
@@ -193,3 +193,6 @@ background-color: var(--color-secondary);
     line-height: 1.2;
     letter-spacing: 0.02em;
     }
+.item-text {
+color: #434455;
+}
