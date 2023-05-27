@@ -20,16 +20,17 @@ body {
 .link:active :hover :focus {
         color: #404BBF;
     }
+.list{
+list-style: none;
+}
+address{
+font-style: normal;
+}
 /* ===================MAIN-PAGE=================== */
 
 /* ---------------------HEADER-------------------- */
-.header {
 
-}
-.nav {
-
-}
-.header .logo .link {
+.header-logo .link {
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -46,30 +47,23 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
 }
-.nav-link-list {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-}
-.nav-item {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-
-}
 .nav-link {
- }
-.adr {
-
+    color: var(--color-secondary);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-.adr-list {
-
+.nav-link :hover :focus {
+color: #404bbf
 }
-.adr-item {
 
-}
+
 .adr-link {
-    font-style: normal;
+    color: var(--color-primary)
+}
+.adr-link :hover :focus {
+    color: #404BBF;
 }
 
 /* ---------------------MAIN-------------------- */
@@ -86,32 +80,21 @@ background-color: var(--color-secondary);
     letter-spacing: 0.02em;
 }
 .solution-btn {
-    background: #4D5AE5;
+    background-color: #4D5AE5;
     color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background-color: #404BBF
+    cursor: pointer;
 }
 .solution-btn:hover :focus {
     background-color: #404BBF;
-    cursor: pointer;
+    
 }
 /* ................SECTION:ABOUT..............*/
-.about-section {
 
-}
-.about-title {
-
-}
-.about-list {
-
-}
-.about-item {
-
-}
 .about-item-title {
     font-weight: 500;
     font-size: 20px;
@@ -119,12 +102,7 @@ background-color: var(--color-secondary);
     color: var(--color-secondary);
     letter-spacing: 0.02em;
 }
-.about-text {
 
-}
-/* ................SECTION:DOING..............*/
-.doing-section {
-}
 .doing-title {
     color: var(--color-secondary);
     font-weight: 700;
@@ -133,10 +111,7 @@ background-color: var(--color-secondary);
     text-align: center;
     text-transform: capitalize;
 }
-.doing-list {
-}
-.doing-item {
-}
+
 /* ................SECTION:TEAM..............*/
 .team-section {
     background-color: #F4F4FD;
@@ -150,8 +125,7 @@ background-color: var(--color-secondary);
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.team-list {
-}
+
 .team-card {
     background-color: #FFFFFF;
 }
@@ -162,13 +136,12 @@ background-color: var(--color-secondary);
     letter-spacing: 0.02em;
     color: var(--color-secondary);
 }
-.card-text {
-}
+
 /* ---------------------FOOTER-------------------- */
 .footer {
     background-color: var(--color-secondary);
 }
-.footer .logo .link {
+.footer-logo .link {
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -178,54 +151,45 @@ background-color: var(--color-secondary);
     text-transform: uppercase;
 }
 .logo-span {
-    color: var(--color-secondary);
+    color: #f4f4fd;
     font-family: 'Raleway'; 
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
 }
-}
+
 .footer-text {
     color: #F4F4FD;
 }
 
 /* ===================PORTFOLIO=================== */
 /* ---------------------MAIN-------------------- */
-.portfolio-section {
-}
-.section-title {
-}
-.filter-list {
-}
-.filter-item {
-}
+
 .filter-btn {
     background-color:#F4F4FD;
     color: #4D5AE5;
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .filter-btn:hover :focus{
     background-color:#404BBF;
     color: #FFFFFF;
 }
 
-.section-list {
-}
+
 .section-item {
     background-color: #E7E9FC;
 }
-.item-link {
-}
+
 .item-title {
     color: var(--color-secondary);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     }
-.item-text {
-    
-}
