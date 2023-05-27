@@ -17,7 +17,7 @@ body {
     text-decoration: none;
     }
     
-.link:active :hover :focus {
+.link:active, .link:hover, .link:focus {
         color: #404BBF;
     }
 .list{
@@ -39,7 +39,7 @@ font-style: normal;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.logo-span{
+.header-span{
     color: #2E2F42;
     font-family: 'Raleway'; 
     font-weight: 800;
@@ -150,7 +150,7 @@ background-color: var(--color-secondary);
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.logo-span {
+.footer-span {
     color: #f4f4fd;
     font-family: 'Raleway'; 
     font-weight: 800;
