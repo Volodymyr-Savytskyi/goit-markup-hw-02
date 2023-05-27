@@ -1,0 +1,231 @@
+:root {
+--color-primary: #434455;
+--color-secondary: #2E2F42; 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-primary);
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.link{
+    color: var(--color-secondary);
+    text-decoration: none;
+    }
+    
+.link:active :hover :focus {
+        color: #404BBF;
+    }
+/* ===================MAIN-PAGE=================== */
+
+/* ---------------------HEADER-------------------- */
+.header {
+
+}
+.nav {
+
+}
+.header .logo .link {
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo-span{
+    color: var(--color-secondary);
+    font-family: 'Raleway'; 
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+.nav-link-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.nav-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+.nav-link {
+ }
+.adr {
+
+}
+.adr-list {
+
+}
+.adr-item {
+
+}
+.adr-link {
+    font-style: normal;
+}
+
+/* ---------------------MAIN-------------------- */
+/* ................SECTION:SOLUTION..............*/
+.solution-section{
+background-color: var(--color-secondary);
+}
+.solution-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.solution-btn {
+    background: #4D5AE5;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #404BBF
+}
+.solution-btn:hover :focus {
+    background-color: #404BBF;
+    cursor: pointer;
+}
+/* ................SECTION:ABOUT..............*/
+.about-section {
+
+}
+.about-title {
+
+}
+.about-list {
+
+}
+.about-item {
+
+}
+.about-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--color-secondary);
+    letter-spacing: 0.02em;
+}
+.about-text {
+
+}
+/* ................SECTION:DOING..............*/
+.doing-section {
+}
+.doing-title {
+    color: var(--color-secondary);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+.doing-list {
+}
+.doing-item {
+}
+/* ................SECTION:TEAM..............*/
+.team-section {
+    background-color: #F4F4FD;
+}
+.team-title {
+    color: var(--color-secondary);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.team-list {
+}
+.team-card {
+    background-color: #FFFFFF;
+}
+.card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-secondary);
+}
+.card-text {
+}
+/* ---------------------FOOTER-------------------- */
+.footer {
+    background-color: var(--color-secondary);
+}
+.footer .logo .link {
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo-span {
+    color: var(--color-secondary);
+    font-family: 'Raleway'; 
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+}
+.footer-text {
+    color: #F4F4FD;
+}
+
+/* ===================PORTFOLIO=================== */
+/* ---------------------MAIN-------------------- */
+.portfolio-section {
+}
+.section-title {
+}
+.filter-list {
+}
+.filter-item {
+}
+.filter-btn {
+    background-color:#F4F4FD;
+    color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.filter-btn:hover :focus{
+    background-color:#404BBF;
+    color: #FFFFFF;
+}
+
+.section-list {
+}
+.section-item {
+    background-color: #E7E9FC;
+}
+.item-link {
+}
+.item-title {
+    color: var(--color-secondary);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    }
+.item-text {
+    
+}
